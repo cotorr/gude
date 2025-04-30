@@ -1,0 +1,140 @@
+
+
+  .main-gude {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    border-bottom: 1px solid #e0ded7;
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #1f1f1f;
+  }
+  
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .top-nav ul li a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-size: 14px;
+  }
+  
+  /* 사이드 메뉴 */
+  .side-menu {
+    position: absolute;
+    left: 60px;
+    top: 140px;
+  }
+  
+  .side-menu h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .side-menu ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 14px;
+  }
+  
+  /* 메인 비주얼 */
+  .main-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .about h2 {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about h3 {
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .about img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Collection Preview */
+  .collection-preview {
+    padding: 80px 120px;
+    background-color: #f4f1ea;
+    text-align: center;
+  }
+  
+  .collection-preview h2 {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 8px;
+  }
+  
+  .collection-preview p {
+    font-size: 15px;
+    margin-bottom: 32px;
+    color: #444;
+  }
+  
+  .Collection-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .Collection-cards img {
+    width: 240px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 8px;
+  }
+  
+  .more-btn {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 12px 32px;
+    font-size: 14px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  
