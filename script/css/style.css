@@ -157,3 +157,144 @@ body {
   cursor: pointer;
   font-family: sans-serif;
 }
+
+
+
+
+.Featured-Bags {
+  background-color: #e8dfcd;
+  padding-bottom: 100px;
+}
+
+.Featured-wrapper h2 {
+  font-size: 89px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 80px;
+  margin-left: 242px;
+  padding-top: 50px;
+}
+
+.bag-list {
+  display: flex;
+  gap: 62px;
+  justify-content: center;
+}
+
+.bag-card {
+  background-color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 16%;
+  padding: 30px;
+}
+
+.bag-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bag-card h3 {
+  font-size: 18px;
+  margin: 16px 0 8px;
+}
+
+.bag-card p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+
+/* -------- Style Inspiration -------- */
+.style-inspiration {
+  background-color: #fdfbf6;
+  padding: 0;
+}
+
+
+.inspiration-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.inspiration-img-box img {
+  width: 62%;
+}
+
+.inspiration-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0;
+}
+
+
+.inspiration-text {
+  position: absolute;
+  top: 77%;
+  left: 21%;
+  color: white;
+}
+
+.inspiration-text h2 {
+  font-size: 47px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 8px;
+}
+
+.inspiration-text p {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.inspiration-text button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 33px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* -------- Sustainability -------- */
+.sustainability {
+  background-color: #fdfbf6;
+}
+
+.sustainability-wrapper h2 {
+  font-size: 89px;
+  font-family: 'Playfair Display', serif;
+  margin: 60px 0 80px 470px;
+}
+
+.sustainability-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 62px;
+  margin: 0 0 80px 250px;
+}
+
+.sustainability-content img {
+  width: 42%;
+  border-radius: 7px;
+}
+
+.sustainability-text h3 {
+  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 48px;
+}
+
+.sustainability-text p {
+  font-size: 24px;
+  line-height: 1.8;
+  color: #333;
+}
