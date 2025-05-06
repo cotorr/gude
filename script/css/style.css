@@ -12,10 +12,17 @@ body {
 
 
 .logo {
-  font-size: 90px;
+  font-family: 'Srisakdi', cursive;
+  font-size: 110px;
   font-weight: bold;
   margin-left: 370px;
+  margin-bottom: 20px;
   color: #1f1f1f;
+}
+
+.top-nav,
+.side-menu {
+  font-family: 'Simonetta', cursive;
 }
 
 .top-nav ul {
@@ -39,7 +46,7 @@ body {
 }
 
 .side-menu h2 {
-  font-size: 18px;
+  font-size: 43px;
   font-weight: bold;
   margin: 50px 0 12px 0;
 }
@@ -63,7 +70,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: 0;
-  width: 81%;
+  width: 79%;
 }
 
 /* About Section */
@@ -88,15 +95,15 @@ body {
 }
 
 .about-text h2 {
-  font-size: 89px;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
+  font-family: 'Simonetta';
+  font-size: 86px;
+  font-weight: bold;
   margin: 0;
 }
 
 .about-text h3 {
+  font-family: 'Simonetta';
   font-size: 64px;
-  font-weight: normal;
   margin: 182px 0 114px 0;
 }
 
@@ -123,9 +130,18 @@ body {
   text-align: center;
 }
 
+.sustainability-text h3,
+.sustainability-wrapper h2,
+.inspiration-text,
+.Featured-wrapper h2,
+.collection-text p,
+.collection-text h2 {
+  font-family: 'Simonetta', cursive;
+}
+
+
 .collection-text h2 {
   font-size: 60px;
-  font-family: 'Playfair Display', serif;
   margin-bottom: 24px;
 }
 
@@ -168,7 +184,6 @@ body {
 
 .Featured-wrapper h2 {
   font-size: 89px;
-  font-family: 'Playfair Display', serif;
   margin-bottom: 80px;
   margin-left: 242px;
   padding-top: 50px;
@@ -243,7 +258,6 @@ body {
 
 .inspiration-text h2 {
   font-size: 47px;
-  font-family: 'Playfair Display', serif;
   margin-bottom: 8px;
 }
 
