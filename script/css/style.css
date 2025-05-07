@@ -108,11 +108,11 @@ body {
 .about-wrapper {
   margin: 250px 80px;
   display: flex;
-  gap: 144px;
+  gap: 220px;
 }
 
 .about-text {
-  margin-left: 160px;
+  margin-left: 208px;
 }
 
 .about-text h2 {
@@ -125,7 +125,7 @@ body {
 .about-text h3 {
   font-family: 'Simonetta';
   font-size: 54px;
-  margin: 114px 0;
+  margin: 140px 0;
 }
 
 .about-text p {
@@ -134,15 +134,13 @@ body {
 }
 
 .about-img {
-  width: 40%;
   text-align: right;
 }
 
 .about-img img {
-  width: 648px;
-  height: 750px;
+  width: 563px;
+  height: 949px;
   display: block;
-  margin-top: 45px;
 }
 
 /* Collection Preview */
@@ -347,7 +345,8 @@ body {
 .sustainability-wrapper h2 {
   font-size: 65px;
   font-family: 'Playfair Display', serif;
-  margin: 60px 0 80px 470px;
+  margin: 0 0 80px 470px;
+  padding-top: 66px;
 }
 
 .sustainability-content {
