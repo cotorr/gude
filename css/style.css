@@ -73,6 +73,7 @@ body {
 .main-visual img {
   display: block;
   margin-left: 422px;
+  padding-bottom: 120px;
   width: 71%;
 }
 
@@ -85,11 +86,11 @@ body {
 .has-bg::before {
   content: "";
   position: absolute;
-  top: -130px;
-  bottom: -185px;
+  top: -196px;
+  bottom: -228px;
   left: 0;
   right: 0;
-  background-image: url(/img/about3.png);
+  background-image: url(/img/about_back.png);
   background-size: cover;
   z-index: -1;
 }
@@ -107,7 +108,7 @@ body {
 .about-wrapper {
   margin: 250px 80px;
   display: flex;
-  gap: 100px;
+  gap: 120px;
   justify-content: center;
 }
 
@@ -117,7 +118,7 @@ body {
 }
 
 .about-text h2 {
-  font-family: 'Srisakdi';
+  font-family: 'Simonetta';
   font-size: 72px;
   font-weight: bold;
   margin: 0;
