@@ -1,0 +1,117 @@
+@media (max-width: 1600px) {
+    .main-visual img {
+        padding-bottom: 120px;
+        width: 63%;
+    }
+
+    .logo {
+        font-size: 80px;
+
+    }
+
+    .Featured-wrapper h2,
+    .about-text h2 {
+        font-size: 60px;
+    }
+
+    .about-text h3 {
+        font-size: 42px
+    }
+
+    .about-text p {
+        font-size: 20px;
+    }
+
+    .about-wrapper img {
+        width: 550px;
+        height: 650px;
+    }
+
+    .inspiration-text {
+        position: absolute;
+        top: 71%;
+        left: 21%;
+    }
+
+    .inspiration-text h2 {
+        font-size: 32px;
+    }
+
+    .inspiration-text p {
+        font-size: 18px;
+    }
+
+    .inspiration-text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .logo {
+        margin-left: 224px;
+    }
+
+    .main-visual img {
+        margin-left: 280px;
+    }
+
+    .side-menu h2 {
+        font-size: 24px;
+    }
+
+    .side-menu ul li a {
+        font-size: 20px;
+    }
+
+    .sustainability-content {
+        margin: 0 0 80px 80px;
+    }
+
+    .sustainability-wrapper h2 {
+        margin: 0 0 80px 300px;
+    }
+
+    .bag-card {
+        width: 180px;
+    }
+
+    .sustainability-wrapper h2,
+    .collection-text h2,
+    .Featured-wrapper h2,
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .about-text h3 {
+        font-size: 35px;
+        margin: 80px 0;
+    }
+
+    .about-wrapper {
+        margin: 150px 80px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about-wrapper img {
+        width: 500px;
+        height: 650px;
+    }
+
+    .sustainability-content img {
+        width: 33%;
+    }
+
+    .sustainability-wrapper,
+    .sustainability-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sustainability-wrapper h2 {
+        margin: 0 0 80px 0;
+    }
+}
