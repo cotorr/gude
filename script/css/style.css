@@ -86,7 +86,7 @@ body {
   content: "";
   position: absolute;
   top: -130px;
-  bottom: -283px;
+  bottom: -185px;
   left: 0;
   right: 0;
   background-image: url(/img/about3.png);
@@ -107,11 +107,13 @@ body {
 .about-wrapper {
   margin: 250px 80px;
   display: flex;
-  gap: 220px;
+  gap: 100px;
+  justify-content: center;
 }
 
-.about-text {
-  margin-left: 208px;
+.about-wrapper img {
+  width: 650px;
+  height: 750px;
 }
 
 .about-text h2 {
@@ -132,6 +134,8 @@ body {
   font-size: 24px;
   line-height: 1.8;
 }
+
+
 
 
 /* Collection Preview */
