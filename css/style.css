@@ -179,14 +179,14 @@ body {
   color: #444;
 }
 
-.Collection-cards {
+.collection-cards {
   display: flex;
   justify-content: center;
   gap: 35px;
   margin: 38px 0;
 }
 
-.Collection-cards img {
+.collection-cards img {
   width: 240px;
   padding: 8px;
 }

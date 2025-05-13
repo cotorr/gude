@@ -169,7 +169,7 @@
         height: 500px;
     }
 
-    .Collection-cards img {
+    .collection-cards img {
         width: 210px;
     }
 
@@ -261,12 +261,12 @@
 
 @media (max-width: 700px) {
 
-    .Collection-cards img:first-child,
-    .Collection-cards img:last-child {
+    .collection-cards img:first-child,
+    .collection-cards img:last-child {
         display: none;
     }
 
-    .Collection-cards img {
+    .collection-cards img {
         width: 226px;
     }
 
