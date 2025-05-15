@@ -156,16 +156,17 @@ body {
   text-align: center;
 }
 
+.collection-text p,
 .bag-card h3,
 .bag-card p,
 .sustainability-text h3,
-.sustainability-wrapper h2,
 .inspiration-text,
 .Featured-wrapper h2,
-.collection-text p,
 .collection-text h2 {
   font-family: 'Simonetta', cursive;
 }
+
+
 
 
 .collection-text h2 {
@@ -446,5 +447,3 @@ body {
   width: 24px;
   margin-left: 12px;
 }
-
-
